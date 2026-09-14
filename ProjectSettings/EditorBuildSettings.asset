@@ -6,7 +6,254 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Bootstrap.unity
+    guid: 21fdbc5a628a2d54badc21759f82ffe7
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_0_0.unity
+    guid: 48e12914e76fda4499a48920f9d644ef
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_0_1.unity
+    guid: 17da3f89a46662d41aeca67be96195fe
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_0_2.unity
+    guid: 63cddaf10c72e5044ace5702b4c94787
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_0_3.unity
+    guid: 52abee8b31ea562409ca00fba45aa6a1
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_1_0.unity
+    guid: e9cdbd370cb25a54d8ec621209e62491
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_1_1.unity
+    guid: 33b19ce61ed20c740845d10a9f5495a8
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_1_2.unity
+    guid: 79e042d10be59c545b82b938b515699d
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_1_3.unity
+    guid: 317d02ccb7275ec4e9e0783ddbc78b85
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_2_0.unity
+    guid: 905dde834a2aea84497d0e49a935be2a
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_2_1.unity
+    guid: 3ae1c10567dfa6b42a0b6b17adbff1b8
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_2_2.unity
+    guid: b8cbb047c44220e4085bbfe2d50f683a
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_2_3.unity
+    guid: a2dcc4d9a0e3c604a8bd1c2545551623
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_3_0.unity
+    guid: 107d313a1e097f24694b3891140947cb
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_3_1.unity
+    guid: a41d705de84480243943e0a05313078f
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_3_2.unity
+    guid: b693e65db55aa2c468bab4edb630f793
+  - enabled: 1
+    path: Assets/LostIsland/AnchorIsland/Generated/Scenes/AnchorIsland_Tile_3_3.unity
+    guid: f679305fe6ef7a34cb1e5bab2fecfa99
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LostIsland_Bootstrap.unity
+    guid: 1a8b46966d7a18f4db807b44c97b8bb5
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_0_0.unity
+    guid: 7aee40db7170b5d40a81b4805e741246
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_1_0.unity
+    guid: 39c38c00aae7dfe49a57403ef838725f
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_2_0.unity
+    guid: 7f238cfdf3dbcdc4896ccb6b887bae70
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_3_0.unity
+    guid: ce9206da184aa0740b987a897d2644af
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_4_0.unity
+    guid: fbf797bd30e573a41bdf2aecc7397eec
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_5_0.unity
+    guid: 130a705f4ef3e9347ac37161a3b5276c
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_6_0.unity
+    guid: a2280fb93526eb447ae103f7f6c76a15
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_7_0.unity
+    guid: 2613a6c6dbc5b304898c064cb4802407
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_0_1.unity
+    guid: f9790bd38d15f9e469a84c812a94d7a5
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_1_1.unity
+    guid: a22aedfb9807f774dab86fb0af850ed1
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_2_1.unity
+    guid: 657e3caa348abfb479b01027b87fffa5
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_3_1.unity
+    guid: 87240c8b395abd74db4c032d764bffaa
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_4_1.unity
+    guid: e1cbb62ca5d882d4fb46965a7d02f60d
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_5_1.unity
+    guid: ad604d7e220480f4a80077ba1a9ff81f
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_6_1.unity
+    guid: 449857da27501f44fb20c681b17883b7
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_7_1.unity
+    guid: f4caa32a8a5584c4a95c655effc5b628
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_0_2.unity
+    guid: 0ac11f64481806d4980cb1e342fa6303
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_1_2.unity
+    guid: fa8ba72b8c03ba74ab4ff06c8bd9135c
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_2_2.unity
+    guid: 81b5e242da6187e4b9142de13305d7dc
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_3_2.unity
+    guid: 5781152995e7ba8458b3dc43dce4a9fb
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_4_2.unity
+    guid: 7fa18214bf4aa034a99b602d55d1fb41
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_5_2.unity
+    guid: cccf2ae2116691747a1af4f197ef107f
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_6_2.unity
+    guid: f2764ac2fa31bf344b493e83b3982762
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_7_2.unity
+    guid: 3f566a42cfd9f6a48bbc661af72f0fff
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_0_3.unity
+    guid: 899c94c80baccde4ab8605bf39b9cdcb
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_1_3.unity
+    guid: a283366fdc8a1c546a6b4a19de30b53d
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_2_3.unity
+    guid: c6fa7e1a9f82cda43b0aba3b57fabaa8
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_3_3.unity
+    guid: e9531e410f9b01448a690c3e9f27f19f
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_4_3.unity
+    guid: 4a7baea976c66ce43b2ac0420307b3e3
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_5_3.unity
+    guid: 700a5200ce2dd6d43b7e0a9b3400f985
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_6_3.unity
+    guid: 04c1ab5241323e14e90bb1c42e185a9b
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_7_3.unity
+    guid: 6938a39f36a679b479dec9f70838a8bb
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_0_4.unity
+    guid: cda9dd9bad22c0644aad7a922554226f
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_1_4.unity
+    guid: 20a824d2280f81147bc5c0a022f62dad
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_2_4.unity
+    guid: 831f095e5d2eecb44a5c9aaf06b7a716
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_3_4.unity
+    guid: 741702705ff43364d8830ff76b5ad9cd
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_4_4.unity
+    guid: 6a97933aebe3bbb48a2ec9229b0a1fcc
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_5_4.unity
+    guid: 164539a5f535dd74887aed754e65760b
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_6_4.unity
+    guid: b341e69bac10a8f4da9160d302232a08
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_7_4.unity
+    guid: de1cd074d931ec54bb023c6e38cbe188
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_0_5.unity
+    guid: 519c7c269b000604b9d71fad5853e584
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_1_5.unity
+    guid: 8d68e07e9aac29c4cbcd5a7b8b1a7d1f
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_2_5.unity
+    guid: 108262bc8d1467a49939d64965b240d2
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_3_5.unity
+    guid: 7061b1d98efb6b84aaaa9cb2dfc88be8
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_4_5.unity
+    guid: 31437c58265e07d41aa6801269fed1fd
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_5_5.unity
+    guid: 26de47a9c3012d743be0ed4284d8d540
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_6_5.unity
+    guid: e44b152ec70c072448807964696d3ac8
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_7_5.unity
+    guid: db2b4242f7149fc469057799a8607cb8
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_0_6.unity
+    guid: f20506c1b5260bc41aa461c34a838ca1
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_1_6.unity
+    guid: 4a6bd6c7326aca546be370ec0643160f
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_2_6.unity
+    guid: 55bf3a447ce68f64a984e347367ef4a5
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_3_6.unity
+    guid: 1fac259b8b0bcb34f82c2775d92eda55
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_4_6.unity
+    guid: 6a4e30525e12d8744b6b5bbdffd23cd9
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_5_6.unity
+    guid: 2eec1b467c39e094b87d9beda8ef0644
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_6_6.unity
+    guid: 0359b9925c3ffa8498be791018e67a4c
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_7_6.unity
+    guid: 50be6c28f019f704ea04158ea1ad9cb8
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_0_7.unity
+    guid: f66d81b9695400941aabb2242a361c1a
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_1_7.unity
+    guid: 21403df8959e1b444977c1bc5aee6550
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_2_7.unity
+    guid: 2e3411de2d8022f49a08c98bf2e1651f
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_3_7.unity
+    guid: 98eec6beb1ef4dc4496e289088b9fe4b
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_4_7.unity
+    guid: 2aa75dbf25f7c7149b0ffaf4a2b346a1
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_5_7.unity
+    guid: 0f463641f1c21a94da34cb5eea54e02a
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_6_7.unity
+    guid: 92459171b7f6df846a996df1420f9784
+  - enabled: 1
+    path: Assets/LostIsland/Generated/WorldV2/Scenes/LI_Tile_7_7.unity
+    guid: c9de10a9fbd4fcb4c89d855b2e3f68af
   m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa93f9ae5cb39b4cbd5206e9406e9d9, type: 3}
+  m_Name: Creature_psittacosaurus-mongoliensis
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorCreatureDefinition
+  data:
+    id: psittacosaurus-mongoliensis
+    displayName: Psittacosaurus mongoliensis
+    role: small-herbivore
+    activity: day
+    aggression: flee
+    sampleUnlock: foraging_efficiency
+    zones:
+    - northeast-grassland
+    - north-forest
+    drops:
+    - meat
+    - small_bone
+    - hide
+    - beak_sample
+    groupMin: 2
+    groupMax: 6
+    maxGroups: 6
+    danger: 0
+    spawnWeight: 0.9
+  prefab: {fileID: 95386789252990613, guid: bab6875411946c6408d4512acd25f869, type: 3}

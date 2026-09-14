@@ -1,0 +1,7 @@
+{
+  "note": "Leave empty to use generated placeholders. Astra should bind real project prefabs when available.",
+  "buildingPrefabs": {},
+  "environmentPrefabs": {},
+  "creaturePrefabs": {},
+  "resourcePrefabs": {}
+}

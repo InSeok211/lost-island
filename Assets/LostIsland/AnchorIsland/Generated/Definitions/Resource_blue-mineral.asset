@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92dec9e30101ff0499b61aab9dee3f27, type: 3}
+  m_Name: Resource_blue-mineral
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorResourceDefinition
+  data:
+    id: blue-mineral
+    displayName: "\uCCAD\uD68C\uC11D"
+    category: anomaly
+    tool: pickaxe
+    rarity: rare
+    zones:
+    - west-cliffs
+    craftingTags:
+    - anchor_research
+    - electronics
+    spawnPerKm2: 1.5
+    respawnDays: 25
+    yieldMin: 1
+    yieldMax: 2
+  prefab: {fileID: 5389178476487453275, guid: c54e284b084ce5a409bfe4ab20198a55, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa93f9ae5cb39b4cbd5206e9406e9d9, type: 3}
+  m_Name: Creature_scelidosaurus-harrisonii
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorCreatureDefinition
+  data:
+    id: scelidosaurus-harrisonii
+    displayName: Scelidosaurus harrisonii
+    role: armored-herbivore
+    activity: day
+    aggression: defensive
+    sampleUnlock: heavy_armor_structure
+    zones:
+    - north-forest
+    drops:
+    - meat
+    - large_bone
+    - hide
+    - osteoderm_sample
+    groupMin: 1
+    groupMax: 2
+    maxGroups: 2
+    danger: 1
+    spawnWeight: 0.22
+  prefab: {fileID: 6866922269944022604, guid: 802c2e8b9e0f3ed4ebc77fa341b042fa, type: 3}

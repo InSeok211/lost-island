@@ -1,0 +1,67 @@
+{
+  "biomes": [
+    {
+      "id": "grass",
+      "treesPerTile": 45,
+      "rocksPerTile": 24,
+      "bushesPerTile": 40,
+      "ruinsPerTile": 1,
+      "minScale": 0.8,
+      "maxScale": 1.5
+    },
+    {
+      "id": "tropical",
+      "treesPerTile": 70,
+      "rocksPerTile": 18,
+      "bushesPerTile": 55,
+      "ruinsPerTile": 1,
+      "minScale": 0.9,
+      "maxScale": 1.7
+    },
+    {
+      "id": "jungle",
+      "treesPerTile": 115,
+      "rocksPerTile": 25,
+      "bushesPerTile": 90,
+      "ruinsPerTile": 2,
+      "minScale": 1.0,
+      "maxScale": 2.0
+    },
+    {
+      "id": "swamp",
+      "treesPerTile": 65,
+      "rocksPerTile": 12,
+      "bushesPerTile": 55,
+      "ruinsPerTile": 1,
+      "minScale": 0.8,
+      "maxScale": 1.6
+    },
+    {
+      "id": "snow",
+      "treesPerTile": 34,
+      "rocksPerTile": 60,
+      "bushesPerTile": 12,
+      "ruinsPerTile": 1,
+      "minScale": 0.8,
+      "maxScale": 1.5
+    },
+    {
+      "id": "desert",
+      "treesPerTile": 6,
+      "rocksPerTile": 75,
+      "bushesPerTile": 16,
+      "ruinsPerTile": 2,
+      "minScale": 0.7,
+      "maxScale": 1.8
+    },
+    {
+      "id": "unknown",
+      "treesPerTile": 30,
+      "rocksPerTile": 55,
+      "bushesPerTile": 25,
+      "ruinsPerTile": 3,
+      "minScale": 0.8,
+      "maxScale": 1.8
+    }
+  ]
+}

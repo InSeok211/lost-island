@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92dec9e30101ff0499b61aab9dee3f27, type: 3}
+  m_Name: Resource_shellfish
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorResourceDefinition
+  data:
+    id: shellfish
+    displayName: "\uC870\uAC1C\uB958"
+    category: shore
+    tool: hand
+    rarity: common
+    zones:
+    - south-beach
+    - nearshore
+    craftingTags:
+    - food
+    - bait
+    spawnPerKm2: 45
+    respawnDays: 1
+    yieldMin: 1
+    yieldMax: 4
+  prefab: {fileID: 7621660255407545311, guid: 826b0a3eb2a93894993b0a6a025919d6, type: 3}

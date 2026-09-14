@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92dec9e30101ff0499b61aab9dee3f27, type: 3}
+  m_Name: Resource_araucaria-resin
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorResourceDefinition
+  data:
+    id: araucaria-resin
+    displayName: "\uC544\uB77C\uC6B0\uCE74\uB9AC\uC544\uACC4 \uC218\uC9C0"
+    category: plant
+    tool: knife
+    rarity: uncommon
+    zones:
+    - north-forest
+    craftingTags:
+    - adhesive
+    - torch
+    - medicine
+    spawnPerKm2: 10
+    respawnDays: 5
+    yieldMin: 1
+    yieldMax: 3
+  prefab: {fileID: 4852078776025750451, guid: c256b30baed959e44bbf8de9fc42a78b, type: 3}

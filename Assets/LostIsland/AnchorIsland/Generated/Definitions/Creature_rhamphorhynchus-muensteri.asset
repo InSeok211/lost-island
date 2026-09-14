@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa93f9ae5cb39b4cbd5206e9406e9d9, type: 3}
+  m_Name: Creature_rhamphorhynchus-muensteri
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorCreatureDefinition
+  data:
+    id: rhamphorhynchus-muensteri
+    displayName: Rhamphorhynchus muensteri
+    role: coastal-pterosaur
+    activity: day
+    aggression: avoid
+    sampleUnlock: fish_school_detection
+    zones:
+    - south-beach
+    - nearshore
+    drops:
+    - wing_membrane_sample
+    groupMin: 3
+    groupMax: 8
+    maxGroups: 5
+    danger: 0
+    spawnWeight: 0.7
+  prefab: {fileID: 5851358743552898226, guid: 251c9a66f95d50741b6fd304071653a6, type: 3}

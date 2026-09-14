@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92dec9e30101ff0499b61aab9dee3f27, type: 3}
+  m_Name: Resource_blank-moss
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorResourceDefinition
+  data:
+    id: blank-moss
+    displayName: "\uACF5\uBC31\uC774\uB07C"
+    category: anomaly
+    tool: knife
+    rarity: rare
+    zones:
+    - central-settlement
+    - restricted-north
+    craftingTags:
+    - blank_research
+    spawnPerKm2: 1.2
+    respawnDays: 20
+    yieldMin: 1
+    yieldMax: 2
+  prefab: {fileID: 5389178476487453275, guid: c54e284b084ce5a409bfe4ab20198a55, type: 3}

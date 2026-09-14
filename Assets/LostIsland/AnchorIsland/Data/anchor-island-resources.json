@@ -1,0 +1,355 @@
+{
+  "resources": [
+    {
+      "id": "conifer-timber",
+      "displayName": "침엽수 목재",
+      "category": "tree",
+      "zones": [
+        "north-forest"
+      ],
+      "spawnPerKm2": 55,
+      "tool": "axe",
+      "yieldMin": 4,
+      "yieldMax": 9,
+      "respawnDays": 8,
+      "rarity": "common",
+      "craftingTags": [
+        "wood",
+        "building",
+        "tool_handle"
+      ]
+    },
+    {
+      "id": "araucaria-resin",
+      "displayName": "아라우카리아계 수지",
+      "category": "plant",
+      "zones": [
+        "north-forest"
+      ],
+      "spawnPerKm2": 10,
+      "tool": "knife",
+      "yieldMin": 1,
+      "yieldMax": 3,
+      "respawnDays": 5,
+      "rarity": "uncommon",
+      "craftingTags": [
+        "adhesive",
+        "torch",
+        "medicine"
+      ]
+    },
+    {
+      "id": "fern-fiber",
+      "displayName": "고사리 섬유",
+      "category": "plant",
+      "zones": [
+        "north-forest",
+        "east-wetlands"
+      ],
+      "spawnPerKm2": 70,
+      "tool": "hand",
+      "yieldMin": 2,
+      "yieldMax": 5,
+      "respawnDays": 2,
+      "rarity": "common",
+      "craftingTags": [
+        "fiber",
+        "rope"
+      ]
+    },
+    {
+      "id": "horsetail-stem",
+      "displayName": "속새 줄기",
+      "category": "plant",
+      "zones": [
+        "east-wetlands"
+      ],
+      "spawnPerKm2": 60,
+      "tool": "hand",
+      "yieldMin": 2,
+      "yieldMax": 6,
+      "respawnDays": 2,
+      "rarity": "common",
+      "craftingTags": [
+        "fiber",
+        "abrasive"
+      ]
+    },
+    {
+      "id": "cycad-fiber",
+      "displayName": "소철계 섬유",
+      "category": "plant",
+      "zones": [
+        "northeast-grassland",
+        "north-forest"
+      ],
+      "spawnPerKm2": 22,
+      "tool": "knife",
+      "yieldMin": 2,
+      "yieldMax": 4,
+      "respawnDays": 4,
+      "rarity": "uncommon",
+      "craftingTags": [
+        "fiber",
+        "mat"
+      ]
+    },
+    {
+      "id": "dry-grass",
+      "displayName": "건초 섬유",
+      "category": "plant",
+      "zones": [
+        "northeast-grassland"
+      ],
+      "spawnPerKm2": 95,
+      "tool": "hand",
+      "yieldMin": 2,
+      "yieldMax": 5,
+      "respawnDays": 1,
+      "rarity": "common",
+      "craftingTags": [
+        "fiber",
+        "thatch",
+        "fuel"
+      ]
+    },
+    {
+      "id": "clay",
+      "displayName": "점토",
+      "category": "soil",
+      "zones": [
+        "east-wetlands"
+      ],
+      "spawnPerKm2": 26,
+      "tool": "shovel",
+      "yieldMin": 3,
+      "yieldMax": 8,
+      "respawnDays": 5,
+      "rarity": "common",
+      "craftingTags": [
+        "pottery",
+        "brick"
+      ]
+    },
+    {
+      "id": "flint",
+      "displayName": "부싯돌",
+      "category": "mineral",
+      "zones": [
+        "west-cliffs",
+        "south-beach"
+      ],
+      "spawnPerKm2": 20,
+      "tool": "pickaxe",
+      "yieldMin": 1,
+      "yieldMax": 4,
+      "respawnDays": 6,
+      "rarity": "common",
+      "craftingTags": [
+        "stone_tool",
+        "firestarter"
+      ]
+    },
+    {
+      "id": "iron-ore",
+      "displayName": "철광석",
+      "category": "mineral",
+      "zones": [
+        "west-cliffs"
+      ],
+      "spawnPerKm2": 12,
+      "tool": "pickaxe",
+      "yieldMin": 2,
+      "yieldMax": 5,
+      "respawnDays": 10,
+      "rarity": "uncommon",
+      "craftingTags": [
+        "metal"
+      ]
+    },
+    {
+      "id": "limestone",
+      "displayName": "석회암",
+      "category": "mineral",
+      "zones": [
+        "west-cliffs"
+      ],
+      "spawnPerKm2": 18,
+      "tool": "pickaxe",
+      "yieldMin": 3,
+      "yieldMax": 7,
+      "respawnDays": 7,
+      "rarity": "common",
+      "craftingTags": [
+        "building",
+        "lime"
+      ]
+    },
+    {
+      "id": "salt-crystal",
+      "displayName": "소금 결정",
+      "category": "mineral",
+      "zones": [
+        "south-beach",
+        "west-cliffs"
+      ],
+      "spawnPerKm2": 8,
+      "tool": "pickaxe",
+      "yieldMin": 1,
+      "yieldMax": 4,
+      "respawnDays": 8,
+      "rarity": "uncommon",
+      "craftingTags": [
+        "food_preservation",
+        "chemistry"
+      ]
+    },
+    {
+      "id": "amber",
+      "displayName": "호박",
+      "category": "rare",
+      "zones": [
+        "north-forest"
+      ],
+      "spawnPerKm2": 2,
+      "tool": "knife",
+      "yieldMin": 1,
+      "yieldMax": 1,
+      "respawnDays": 20,
+      "rarity": "rare",
+      "craftingTags": [
+        "research",
+        "trade"
+      ]
+    },
+    {
+      "id": "fossil-fragment",
+      "displayName": "화석 조각",
+      "category": "fossil",
+      "zones": [
+        "west-cliffs"
+      ],
+      "spawnPerKm2": 5,
+      "tool": "pickaxe",
+      "yieldMin": 1,
+      "yieldMax": 3,
+      "respawnDays": 15,
+      "rarity": "rare",
+      "craftingTags": [
+        "research",
+        "trade"
+      ]
+    },
+    {
+      "id": "driftwood",
+      "displayName": "표류목",
+      "category": "shore",
+      "zones": [
+        "south-beach"
+      ],
+      "spawnPerKm2": 35,
+      "tool": "hand",
+      "yieldMin": 1,
+      "yieldMax": 4,
+      "respawnDays": 2,
+      "rarity": "common",
+      "craftingTags": [
+        "wood",
+        "fuel"
+      ]
+    },
+    {
+      "id": "shellfish",
+      "displayName": "조개류",
+      "category": "shore",
+      "zones": [
+        "south-beach",
+        "nearshore"
+      ],
+      "spawnPerKm2": 45,
+      "tool": "hand",
+      "yieldMin": 1,
+      "yieldMax": 4,
+      "respawnDays": 1,
+      "rarity": "common",
+      "craftingTags": [
+        "food",
+        "bait"
+      ]
+    },
+    {
+      "id": "seaweed",
+      "displayName": "해초",
+      "category": "marine",
+      "zones": [
+        "nearshore"
+      ],
+      "spawnPerKm2": 65,
+      "tool": "knife",
+      "yieldMin": 2,
+      "yieldMax": 6,
+      "respawnDays": 2,
+      "rarity": "common",
+      "craftingTags": [
+        "food",
+        "fiber",
+        "medicine"
+      ]
+    },
+    {
+      "id": "blue-mineral",
+      "displayName": "청회석",
+      "category": "anomaly",
+      "zones": [
+        "west-cliffs"
+      ],
+      "spawnPerKm2": 1.5,
+      "tool": "pickaxe",
+      "yieldMin": 1,
+      "yieldMax": 2,
+      "respawnDays": 25,
+      "rarity": "rare",
+      "craftingTags": [
+        "anchor_research",
+        "electronics"
+      ]
+    },
+    {
+      "id": "blank-moss",
+      "displayName": "공백이끼",
+      "category": "anomaly",
+      "zones": [
+        "central-settlement",
+        "restricted-north"
+      ],
+      "spawnPerKm2": 1.2,
+      "tool": "knife",
+      "yieldMin": 1,
+      "yieldMax": 2,
+      "respawnDays": 20,
+      "rarity": "rare",
+      "craftingTags": [
+        "blank_research"
+      ]
+    },
+    {
+      "id": "wreck-tech",
+      "displayName": "회수 기술 부품",
+      "category": "artifact",
+      "zones": [
+        "south-beach"
+      ],
+      "spawnPerKm2": 1.5,
+      "tool": "salvage_tool",
+      "yieldMin": 1,
+      "yieldMax": 3,
+      "respawnDays": 0,
+      "rarity": "artifact",
+      "craftingTags": [
+        "electronics",
+        "machine",
+        "research"
+      ]
+    }
+  ]
+}

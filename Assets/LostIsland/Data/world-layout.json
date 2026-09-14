@@ -1,0 +1,467 @@
+{
+  "worldName": "Lost Island World Blockout V2",
+  "seed": 17017,
+  "worldSizeMeters": 16000,
+  "tileSizeMeters": 2000,
+  "terrainHeightMeters": 900,
+  "seaLevelMeters": 150,
+  "heightmapResolution": 513,
+  "alphamapResolution": 256,
+  "loadRadiusTiles": 1,
+  "regions": [
+    {
+      "id": "anchor-island",
+      "displayName": "닻섬",
+      "kind": "land",
+      "biome": "grass",
+      "x": 0,
+      "z": 0,
+      "radiusX": 1400,
+      "radiusZ": 1000,
+      "height": 250,
+      "relief": 0.22,
+      "creatures": [
+        "coastal-bird",
+        "small-herbivore",
+        "shore-reptile"
+      ]
+    },
+    {
+      "id": "anchor-archipelago",
+      "displayName": "닻 군도",
+      "kind": "land",
+      "biome": "tropical",
+      "x": 400,
+      "z": 1600,
+      "radiusX": 2600,
+      "radiusZ": 1400,
+      "height": 180,
+      "relief": 0.28,
+      "creatures": [
+        "small-herbivore",
+        "small-theropod",
+        "ichthyosaur",
+        "crustacean"
+      ]
+    },
+    {
+      "id": "grassland",
+      "displayName": "초원 대륙",
+      "kind": "land",
+      "biome": "grass",
+      "x": -3200,
+      "z": 3500,
+      "radiusX": 3600,
+      "radiusZ": 2500,
+      "height": 380,
+      "relief": 0.32,
+      "creatures": [
+        "sauropod",
+        "ceratopsian",
+        "medium-theropod",
+        "small-mammal"
+      ]
+    },
+    {
+      "id": "jungle",
+      "displayName": "밀림 지대",
+      "kind": "land",
+      "biome": "jungle",
+      "x": -5000,
+      "z": 1200,
+      "radiusX": 2500,
+      "radiusZ": 2600,
+      "height": 420,
+      "relief": 0.55,
+      "creatures": [
+        "small-theropod",
+        "medium-theropod",
+        "large-herbivore",
+        "giant-insect",
+        "poison-amphibian"
+      ]
+    },
+    {
+      "id": "swamp",
+      "displayName": "늪지",
+      "kind": "land",
+      "biome": "swamp",
+      "x": -4800,
+      "z": -1900,
+      "radiusX": 2300,
+      "radiusZ": 1800,
+      "height": 140,
+      "relief": 0.18,
+      "creatures": [
+        "semi-aquatic-reptile",
+        "crocodilian",
+        "large-amphibian",
+        "small-theropod"
+      ]
+    },
+    {
+      "id": "frozen",
+      "displayName": "설산 지대",
+      "kind": "land",
+      "biome": "snow",
+      "x": 500,
+      "z": 5200,
+      "radiusX": 2700,
+      "radiusZ": 2200,
+      "height": 690,
+      "relief": 0.72,
+      "creatures": [
+        "feathered-theropod",
+        "cold-herbivore",
+        "large-bird",
+        "cave-fauna"
+      ]
+    },
+    {
+      "id": "desert",
+      "displayName": "사막 지대",
+      "kind": "land",
+      "biome": "desert",
+      "x": 5000,
+      "z": 3000,
+      "radiusX": 2700,
+      "radiusZ": 2700,
+      "height": 440,
+      "relief": 0.52,
+      "creatures": [
+        "armored-herbivore",
+        "small-theropod",
+        "desert-reptile",
+        "pterosaur"
+      ]
+    },
+    {
+      "id": "coral-sea",
+      "displayName": "산호 해역",
+      "kind": "marine",
+      "biome": "coral",
+      "x": 4200,
+      "z": 300,
+      "radiusX": 2600,
+      "radiusZ": 1800,
+      "height": 0,
+      "relief": 0,
+      "creatures": [
+        "small-plesiosaur",
+        "ichthyosaur",
+        "tropical-fish",
+        "giant-crustacean",
+        "archelon"
+      ]
+    },
+    {
+      "id": "open-sea",
+      "displayName": "외해",
+      "kind": "marine",
+      "biome": "ocean",
+      "x": 1800,
+      "z": -2500,
+      "radiusX": 5000,
+      "radiusZ": 2200,
+      "height": 0,
+      "relief": 0,
+      "creatures": [
+        "large-fish",
+        "marine-predator",
+        "ichthyosaur",
+        "seabird"
+      ]
+    },
+    {
+      "id": "plesiosaur-sea",
+      "displayName": "수장룡 해역",
+      "kind": "marine",
+      "biome": "deep-ocean",
+      "x": -800,
+      "z": -4300,
+      "radiusX": 3800,
+      "radiusZ": 1800,
+      "height": 0,
+      "relief": 0,
+      "creatures": [
+        "elasmosaur",
+        "dolichorhynchops",
+        "archelon",
+        "mosasaur",
+        "pliosaur"
+      ]
+    },
+    {
+      "id": "deep-sea",
+      "displayName": "심층 해역",
+      "kind": "marine",
+      "biome": "abyss",
+      "x": 500,
+      "z": -6500,
+      "radiusX": 3000,
+      "radiusZ": 1500,
+      "height": 0,
+      "relief": 0,
+      "creatures": [
+        "deep-fish",
+        "giant-cephalopod",
+        "unknown-marine-reptile",
+        "bioluminescent-fauna"
+      ]
+    },
+    {
+      "id": "void-sea",
+      "displayName": "공백 해역",
+      "kind": "marine",
+      "biome": "void",
+      "x": -5000,
+      "z": -4300,
+      "radiusX": 2600,
+      "radiusZ": 2000,
+      "height": 0,
+      "relief": 0,
+      "creatures": [
+        "unknown-fauna",
+        "void-affected-school"
+      ]
+    },
+    {
+      "id": "blank-echo",
+      "displayName": "대공백 잔향",
+      "kind": "anomaly",
+      "biome": "void",
+      "x": 6000,
+      "z": -2200,
+      "radiusX": 1800,
+      "radiusZ": 1800,
+      "height": 0,
+      "relief": 0,
+      "creatures": []
+    },
+    {
+      "id": "unknown-continent",
+      "displayName": "미지의 대륙",
+      "kind": "land",
+      "biome": "unknown",
+      "x": 5200,
+      "z": -5400,
+      "radiusX": 2500,
+      "radiusZ": 2300,
+      "height": 520,
+      "relief": 0.65,
+      "creatures": []
+    }
+  ],
+  "pois": [
+    {
+      "id": "anchor-hq",
+      "displayName": "앵커 관리국 본부",
+      "type": "settlement",
+      "x": 0,
+      "z": 100
+    },
+    {
+      "id": "silent-harbor",
+      "displayName": "침묵의 항구",
+      "type": "harbor",
+      "x": 500,
+      "z": -300
+    },
+    {
+      "id": "bio-institute",
+      "displayName": "세계생태연구원",
+      "type": "research",
+      "x": -350,
+      "z": 200
+    },
+    {
+      "id": "frontier-market",
+      "displayName": "개척자 시장",
+      "type": "settlement",
+      "x": 250,
+      "z": 350
+    },
+    {
+      "id": "first-anchor-observatory",
+      "displayName": "첫 닻 관측소",
+      "type": "research",
+      "x": 100,
+      "z": 1800
+    },
+    {
+      "id": "quiet-wrecks",
+      "displayName": "고요 난파지",
+      "type": "ruin",
+      "x": -700,
+      "z": 1500
+    },
+    {
+      "id": "whaleback-cliff",
+      "displayName": "고래등 절벽",
+      "type": "landmark",
+      "x": -4300,
+      "z": 3900
+    },
+    {
+      "id": "windridge",
+      "displayName": "바람뜰 능선",
+      "type": "habitat",
+      "x": -2800,
+      "z": 4200
+    },
+    {
+      "id": "grass-forward-base",
+      "displayName": "개척자 전진기지",
+      "type": "settlement",
+      "x": -2300,
+      "z": 3200
+    },
+    {
+      "id": "pale-falls",
+      "displayName": "창백한 폭포",
+      "type": "landmark",
+      "x": -5600,
+      "z": 1900
+    },
+    {
+      "id": "jungle-station",
+      "displayName": "밀림 탐사기지",
+      "type": "research",
+      "x": -4700,
+      "z": 900
+    },
+    {
+      "id": "ancient-observation-tower",
+      "displayName": "고대 관측탑",
+      "type": "ruin",
+      "x": -6100,
+      "z": 800
+    },
+    {
+      "id": "mist-waterway",
+      "displayName": "안개 수로",
+      "type": "danger",
+      "x": -5200,
+      "z": -1700
+    },
+    {
+      "id": "sunken-observatory",
+      "displayName": "침몰 관측소",
+      "type": "ruin",
+      "x": -4300,
+      "z": -2300
+    },
+    {
+      "id": "whitewall-lab",
+      "displayName": "백벽 연구기지",
+      "type": "research",
+      "x": 700,
+      "z": 5200
+    },
+    {
+      "id": "frozen-anchor",
+      "displayName": "설한 앵커",
+      "type": "anchor",
+      "x": 300,
+      "z": 4700
+    },
+    {
+      "id": "glacier-rift",
+      "displayName": "빙하 균열",
+      "type": "danger",
+      "x": -400,
+      "z": 5900
+    },
+    {
+      "id": "forgotten-temple",
+      "displayName": "망각의 신전",
+      "type": "ruin",
+      "x": 5200,
+      "z": 3600
+    },
+    {
+      "id": "dust-excavation",
+      "displayName": "황사 발굴기지",
+      "type": "research",
+      "x": 4600,
+      "z": 2500
+    },
+    {
+      "id": "glass-coral",
+      "displayName": "유리 산호 군락",
+      "type": "habitat",
+      "x": 4300,
+      "z": 300
+    },
+    {
+      "id": "life-lagoon",
+      "displayName": "생명 석호",
+      "type": "habitat",
+      "x": 3500,
+      "z": 700
+    },
+    {
+      "id": "open-sea-buoy",
+      "displayName": "외해 관측 부표",
+      "type": "research",
+      "x": 1700,
+      "z": -1800
+    },
+    {
+      "id": "plesiosaur-feeding",
+      "displayName": "수장룡 먹이터",
+      "type": "habitat",
+      "x": -1000,
+      "z": -3900
+    },
+    {
+      "id": "plesiosaur-route",
+      "displayName": "수장룡 이동 수로",
+      "type": "route",
+      "x": -400,
+      "z": -4700
+    },
+    {
+      "id": "blue-valley",
+      "displayName": "푸른 골짜기",
+      "type": "habitat",
+      "x": -1600,
+      "z": -4900
+    },
+    {
+      "id": "plesiosaur-anchor",
+      "displayName": "수장룡 전초 앵커",
+      "type": "anchor",
+      "x": 900,
+      "z": -3900
+    },
+    {
+      "id": "silent-research-city",
+      "displayName": "침묵 연구도시",
+      "type": "ruin",
+      "x": 200,
+      "z": -6200
+    },
+    {
+      "id": "red-rift-trench",
+      "displayName": "붉은 파열 해구",
+      "type": "danger",
+      "x": -500,
+      "z": -6900
+    },
+    {
+      "id": "ghost-archipelago",
+      "displayName": "유령 군도",
+      "type": "unknown",
+      "x": -5200,
+      "z": -4500
+    },
+    {
+      "id": "blank-echo-boundary",
+      "displayName": "대공백 잔향 경계",
+      "type": "danger",
+      "x": 5700,
+      "z": -2300
+    }
+  ]
+}

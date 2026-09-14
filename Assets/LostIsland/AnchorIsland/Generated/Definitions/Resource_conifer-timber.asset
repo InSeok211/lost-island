@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92dec9e30101ff0499b61aab9dee3f27, type: 3}
+  m_Name: Resource_conifer-timber
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorResourceDefinition
+  data:
+    id: conifer-timber
+    displayName: "\uCE68\uC5FD\uC218 \uBAA9\uC7AC"
+    category: tree
+    tool: axe
+    rarity: common
+    zones:
+    - north-forest
+    craftingTags:
+    - wood
+    - building
+    - tool_handle
+    spawnPerKm2: 55
+    respawnDays: 8
+    yieldMin: 4
+    yieldMax: 9
+  prefab: {fileID: 3966310047498142824, guid: fd877c4dfe3705048b3e80d2e69d3eb4, type: 3}

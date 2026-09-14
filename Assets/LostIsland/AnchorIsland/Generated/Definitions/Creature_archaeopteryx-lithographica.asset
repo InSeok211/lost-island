@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa93f9ae5cb39b4cbd5206e9406e9d9, type: 3}
+  m_Name: Creature_archaeopteryx-lithographica
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorCreatureDefinition
+  data:
+    id: archaeopteryx-lithographica
+    displayName: Archaeopteryx lithographica
+    role: rare-aerial
+    activity: day
+    aggression: avoid
+    sampleUnlock: aerial_awareness
+    zones:
+    - north-forest
+    - west-cliffs
+    drops:
+    - feather_sample
+    groupMin: 1
+    groupMax: 2
+    maxGroups: 2
+    danger: 0
+    spawnWeight: 0.18
+  prefab: {fileID: 110692646822672311, guid: 6f383b8c0880eb244872fcafe55e5321, type: 3}

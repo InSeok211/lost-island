@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa93f9ae5cb39b4cbd5206e9406e9d9, type: 3}
+  m_Name: Creature_dimorphodon-macronyx
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorCreatureDefinition
+  data:
+    id: dimorphodon-macronyx
+    displayName: Dimorphodon macronyx
+    role: pterosaur
+    activity: day
+    aggression: territorial
+    sampleUnlock: visual_detection
+    zones:
+    - west-cliffs
+    - south-beach
+    drops:
+    - wing_membrane_sample
+    - small_bone
+    groupMin: 2
+    groupMax: 5
+    maxGroups: 4
+    danger: 1
+    spawnWeight: 0.52
+  prefab: {fileID: 4351072525403011793, guid: 5ee3822d27bc9074caa68b37a6cc0d4c, type: 3}

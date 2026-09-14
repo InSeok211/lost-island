@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa93f9ae5cb39b4cbd5206e9406e9d9, type: 3}
+  m_Name: Creature_plesiosaurus-dolichodeirus
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorCreatureDefinition
+  data:
+    id: plesiosaurus-dolichodeirus
+    displayName: Plesiosaurus dolichodeirus
+    role: marine-predator
+    activity: day
+    aggression: neutral
+    sampleUnlock: long_swim_endurance
+    zones:
+    - nearshore
+    drops:
+    - skin_sample
+    - tooth
+    groupMin: 1
+    groupMax: 1
+    maxGroups: 1
+    danger: 1
+    spawnWeight: 0.09
+  prefab: {fileID: 6708051131005584441, guid: 0f6b3f8094bb43c49bf8481a80c0e7d8, type: 3}

@@ -1,0 +1,467 @@
+{
+  "note": "All animals below are real prehistoric taxa. Their coexistence on Anchor Island is fictional and explained by the Blank Tide mixing ecosystems from different times and places.",
+  "creatures": [
+    {
+      "id": "hypsilophodon-foxii",
+      "displayName": "Hypsilophodon foxii",
+      "role": "small-herbivore",
+      "zones": [
+        "northeast-grassland",
+        "north-forest"
+      ],
+      "groupMin": 4,
+      "groupMax": 9,
+      "spawnWeight": 1.0,
+      "maxGroups": 7,
+      "activity": "day",
+      "aggression": "flee",
+      "danger": 0,
+      "sampleUnlock": "run_efficiency",
+      "drops": [
+        "meat",
+        "small_bone",
+        "hide"
+      ]
+    },
+    {
+      "id": "psittacosaurus-mongoliensis",
+      "displayName": "Psittacosaurus mongoliensis",
+      "role": "small-herbivore",
+      "zones": [
+        "northeast-grassland",
+        "north-forest"
+      ],
+      "groupMin": 2,
+      "groupMax": 6,
+      "spawnWeight": 0.9,
+      "maxGroups": 6,
+      "activity": "day",
+      "aggression": "flee",
+      "danger": 0,
+      "sampleUnlock": "foraging_efficiency",
+      "drops": [
+        "meat",
+        "small_bone",
+        "hide",
+        "beak_sample"
+      ]
+    },
+    {
+      "id": "protoceratops-andrewsi",
+      "displayName": "Protoceratops andrewsi",
+      "role": "defensive-herbivore",
+      "zones": [
+        "northeast-grassland"
+      ],
+      "groupMin": 2,
+      "groupMax": 5,
+      "spawnWeight": 0.75,
+      "maxGroups": 5,
+      "activity": "day",
+      "aggression": "defensive",
+      "danger": 1,
+      "sampleUnlock": "impact_distribution",
+      "drops": [
+        "meat",
+        "bone",
+        "hide",
+        "frill_sample"
+      ]
+    },
+    {
+      "id": "dryosaurus-altus",
+      "displayName": "Dryosaurus altus",
+      "role": "fast-herbivore",
+      "zones": [
+        "northeast-grassland"
+      ],
+      "groupMin": 3,
+      "groupMax": 7,
+      "spawnWeight": 0.75,
+      "maxGroups": 5,
+      "activity": "day",
+      "aggression": "flee",
+      "danger": 0,
+      "sampleUnlock": "sprint_efficiency",
+      "drops": [
+        "meat",
+        "bone",
+        "hide"
+      ]
+    },
+    {
+      "id": "minmi-paravertebra",
+      "displayName": "Minmi paravertebra",
+      "role": "armored-herbivore",
+      "zones": [
+        "north-forest",
+        "northeast-grassland"
+      ],
+      "groupMin": 1,
+      "groupMax": 3,
+      "spawnWeight": 0.48,
+      "maxGroups": 3,
+      "activity": "day",
+      "aggression": "defensive",
+      "danger": 1,
+      "sampleUnlock": "armor_durability",
+      "drops": [
+        "meat",
+        "bone",
+        "hide",
+        "osteoderm_sample"
+      ]
+    },
+    {
+      "id": "scelidosaurus-harrisonii",
+      "displayName": "Scelidosaurus harrisonii",
+      "role": "armored-herbivore",
+      "zones": [
+        "north-forest"
+      ],
+      "groupMin": 1,
+      "groupMax": 2,
+      "spawnWeight": 0.22,
+      "maxGroups": 2,
+      "activity": "day",
+      "aggression": "defensive",
+      "danger": 1,
+      "sampleUnlock": "heavy_armor_structure",
+      "drops": [
+        "meat",
+        "large_bone",
+        "hide",
+        "osteoderm_sample"
+      ]
+    },
+    {
+      "id": "camptosaurus-dispar",
+      "displayName": "Camptosaurus dispar",
+      "role": "large-herbivore",
+      "zones": [
+        "north-forest",
+        "northeast-grassland"
+      ],
+      "groupMin": 2,
+      "groupMax": 4,
+      "spawnWeight": 0.18,
+      "maxGroups": 2,
+      "activity": "day",
+      "aggression": "defensive",
+      "danger": 1,
+      "sampleUnlock": "load_bearing_efficiency",
+      "drops": [
+        "meat",
+        "large_bone",
+        "hide",
+        "tendon"
+      ]
+    },
+    {
+      "id": "compsognathus-longipes",
+      "displayName": "Compsognathus longipes",
+      "role": "small-predator-scavenger",
+      "zones": [
+        "north-forest",
+        "south-beach"
+      ],
+      "groupMin": 2,
+      "groupMax": 5,
+      "spawnWeight": 0.8,
+      "maxGroups": 6,
+      "activity": "day",
+      "aggression": "opportunistic",
+      "danger": 1,
+      "sampleUnlock": "small_prey_tracking",
+      "drops": [
+        "small_meat",
+        "small_bone",
+        "tooth"
+      ]
+    },
+    {
+      "id": "sinosauropteryx-prima",
+      "displayName": "Sinosauropteryx prima",
+      "role": "small-predator",
+      "zones": [
+        "north-forest"
+      ],
+      "groupMin": 1,
+      "groupMax": 2,
+      "spawnWeight": 0.5,
+      "maxGroups": 4,
+      "activity": "day",
+      "aggression": "opportunistic",
+      "danger": 1,
+      "sampleUnlock": "camouflage_analysis",
+      "drops": [
+        "small_meat",
+        "feather_sample",
+        "tooth"
+      ]
+    },
+    {
+      "id": "microraptor-zhaoianus",
+      "displayName": "Microraptor zhaoianus",
+      "role": "arboreal-predator",
+      "zones": [
+        "north-forest",
+        "west-cliffs"
+      ],
+      "groupMin": 1,
+      "groupMax": 2,
+      "spawnWeight": 0.34,
+      "maxGroups": 3,
+      "activity": "dawn_dusk",
+      "aggression": "avoid",
+      "danger": 0,
+      "sampleUnlock": "glide_observation",
+      "drops": [
+        "feather_sample",
+        "small_bone"
+      ]
+    },
+    {
+      "id": "deinonychus-antirrhopus",
+      "displayName": "Deinonychus antirrhopus",
+      "role": "apex-predator",
+      "zones": [
+        "restricted-north"
+      ],
+      "groupMin": 1,
+      "groupMax": 2,
+      "spawnWeight": 0.12,
+      "maxGroups": 1,
+      "activity": "day",
+      "aggression": "hostile",
+      "danger": 4,
+      "sampleUnlock": "wounded_prey_tracking",
+      "drops": [
+        "meat",
+        "large_claw",
+        "tooth",
+        "tendon",
+        "predator_tissue"
+      ]
+    },
+    {
+      "id": "archaeopteryx-lithographica",
+      "displayName": "Archaeopteryx lithographica",
+      "role": "rare-aerial",
+      "zones": [
+        "north-forest",
+        "west-cliffs"
+      ],
+      "groupMin": 1,
+      "groupMax": 2,
+      "spawnWeight": 0.18,
+      "maxGroups": 2,
+      "activity": "day",
+      "aggression": "avoid",
+      "danger": 0,
+      "sampleUnlock": "aerial_awareness",
+      "drops": [
+        "feather_sample"
+      ]
+    },
+    {
+      "id": "dimorphodon-macronyx",
+      "displayName": "Dimorphodon macronyx",
+      "role": "pterosaur",
+      "zones": [
+        "west-cliffs",
+        "south-beach"
+      ],
+      "groupMin": 2,
+      "groupMax": 5,
+      "spawnWeight": 0.52,
+      "maxGroups": 4,
+      "activity": "day",
+      "aggression": "territorial",
+      "danger": 1,
+      "sampleUnlock": "visual_detection",
+      "drops": [
+        "wing_membrane_sample",
+        "small_bone"
+      ]
+    },
+    {
+      "id": "rhamphorhynchus-muensteri",
+      "displayName": "Rhamphorhynchus muensteri",
+      "role": "coastal-pterosaur",
+      "zones": [
+        "south-beach",
+        "nearshore"
+      ],
+      "groupMin": 3,
+      "groupMax": 8,
+      "spawnWeight": 0.7,
+      "maxGroups": 5,
+      "activity": "day",
+      "aggression": "avoid",
+      "danger": 0,
+      "sampleUnlock": "fish_school_detection",
+      "drops": [
+        "wing_membrane_sample"
+      ]
+    },
+    {
+      "id": "pterodactylus-antiquus",
+      "displayName": "Pterodactylus antiquus",
+      "role": "coastal-pterosaur",
+      "zones": [
+        "south-beach",
+        "east-wetlands"
+      ],
+      "groupMin": 2,
+      "groupMax": 6,
+      "spawnWeight": 0.45,
+      "maxGroups": 4,
+      "activity": "day",
+      "aggression": "avoid",
+      "danger": 0,
+      "sampleUnlock": "coastal_navigation",
+      "drops": [
+        "wing_membrane_sample"
+      ]
+    },
+    {
+      "id": "champsosaurus-natator",
+      "displayName": "Champsosaurus natator",
+      "role": "semi-aquatic-predator",
+      "zones": [
+        "east-wetlands"
+      ],
+      "groupMin": 1,
+      "groupMax": 3,
+      "spawnWeight": 0.5,
+      "maxGroups": 4,
+      "activity": "day",
+      "aggression": "defensive",
+      "danger": 2,
+      "sampleUnlock": "wetland_movement",
+      "drops": [
+        "meat",
+        "scale_sample",
+        "tooth"
+      ]
+    },
+    {
+      "id": "beelzebufo-ampinga",
+      "displayName": "Beelzebufo ampinga",
+      "role": "ambush-amphibian",
+      "zones": [
+        "east-wetlands"
+      ],
+      "groupMin": 1,
+      "groupMax": 2,
+      "spawnWeight": 0.28,
+      "maxGroups": 3,
+      "activity": "night",
+      "aggression": "ambush",
+      "danger": 1,
+      "sampleUnlock": "antimicrobial_compound",
+      "drops": [
+        "skin_sample"
+      ]
+    },
+    {
+      "id": "ichthyosaurus-communis",
+      "displayName": "Ichthyosaurus communis",
+      "role": "marine-predator",
+      "zones": [
+        "nearshore"
+      ],
+      "groupMin": 3,
+      "groupMax": 6,
+      "spawnWeight": 0.55,
+      "maxGroups": 4,
+      "activity": "day",
+      "aggression": "neutral",
+      "danger": 0,
+      "sampleUnlock": "swim_efficiency",
+      "drops": [
+        "skin_sample",
+        "tooth"
+      ]
+    },
+    {
+      "id": "plesiosaurus-dolichodeirus",
+      "displayName": "Plesiosaurus dolichodeirus",
+      "role": "marine-predator",
+      "zones": [
+        "nearshore"
+      ],
+      "groupMin": 1,
+      "groupMax": 1,
+      "spawnWeight": 0.09,
+      "maxGroups": 1,
+      "activity": "day",
+      "aggression": "neutral",
+      "danger": 1,
+      "sampleUnlock": "long_swim_endurance",
+      "drops": [
+        "skin_sample",
+        "tooth"
+      ]
+    },
+    {
+      "id": "leptocleidus-sp",
+      "displayName": "Leptocleidus sp.",
+      "role": "coastal-marine-reptile",
+      "zones": [
+        "nearshore"
+      ],
+      "groupMin": 1,
+      "groupMax": 2,
+      "spawnWeight": 0.13,
+      "maxGroups": 1,
+      "activity": "day",
+      "aggression": "neutral",
+      "danger": 1,
+      "sampleUnlock": "shallow_water_mobility",
+      "drops": [
+        "skin_sample",
+        "tooth"
+      ]
+    },
+    {
+      "id": "dactylioceras-commune",
+      "displayName": "Dactylioceras commune",
+      "role": "ammonite",
+      "zones": [
+        "nearshore"
+      ],
+      "groupMin": 4,
+      "groupMax": 12,
+      "spawnWeight": 0.8,
+      "maxGroups": 6,
+      "activity": "all",
+      "aggression": "none",
+      "danger": 0,
+      "sampleUnlock": "buoyancy_control",
+      "drops": [
+        "shell_sample"
+      ]
+    },
+    {
+      "id": "passaloteuthis-bisulcata",
+      "displayName": "Passaloteuthis bisulcata",
+      "role": "belemnite",
+      "zones": [
+        "nearshore"
+      ],
+      "groupMin": 4,
+      "groupMax": 10,
+      "spawnWeight": 0.65,
+      "maxGroups": 5,
+      "activity": "all",
+      "aggression": "none",
+      "danger": 0,
+      "sampleUnlock": "underwater_streamlining",
+      "drops": [
+        "guard_sample"
+      ]
+    }
+  ]
+}

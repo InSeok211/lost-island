@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa93f9ae5cb39b4cbd5206e9406e9d9, type: 3}
+  m_Name: Creature_dryosaurus-altus
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorCreatureDefinition
+  data:
+    id: dryosaurus-altus
+    displayName: Dryosaurus altus
+    role: fast-herbivore
+    activity: day
+    aggression: flee
+    sampleUnlock: sprint_efficiency
+    zones:
+    - northeast-grassland
+    drops:
+    - meat
+    - bone
+    - hide
+    groupMin: 3
+    groupMax: 7
+    maxGroups: 5
+    danger: 0
+    spawnWeight: 0.75
+  prefab: {fileID: 388086587807446067, guid: d5d021dde04db9240a0fbd2fa804bf8a, type: 3}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa93f9ae5cb39b4cbd5206e9406e9d9, type: 3}
+  m_Name: Creature_pterodactylus-antiquus
+  m_EditorClassIdentifier: Assembly-CSharp::LostIsland.AnchorIsland.AnchorCreatureDefinition
+  data:
+    id: pterodactylus-antiquus
+    displayName: Pterodactylus antiquus
+    role: coastal-pterosaur
+    activity: day
+    aggression: avoid
+    sampleUnlock: coastal_navigation
+    zones:
+    - south-beach
+    - east-wetlands
+    drops:
+    - wing_membrane_sample
+    groupMin: 2
+    groupMax: 6
+    maxGroups: 4
+    danger: 0
+    spawnWeight: 0.45
+  prefab: {fileID: 8119900703876771301, guid: e85f527f2c63343429a1fc7ab1d2eb96, type: 3}

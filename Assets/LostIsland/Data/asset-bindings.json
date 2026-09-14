@@ -1,0 +1,13 @@
+{
+  "note": "Optional. Replace placeholder prefab paths with your real project prefabs. Empty values use generated placeholders.",
+  "treePrefab": "",
+  "rockPrefab": "",
+  "bushPrefab": "",
+  "ruinPrefab": "",
+  "anchorPrefab": "",
+  "harborPrefab": "",
+  "researchPrefab": "",
+  "settlementPrefab": "",
+  "landmarkPrefab": "",
+  "dangerPrefab": ""
+}

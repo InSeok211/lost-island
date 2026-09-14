@@ -1,0 +1,327 @@
+{
+  "islandId": "anchor-island",
+  "displayName": "닻섬",
+  "seed": 17017,
+  "worldSizeMeters": 4000,
+  "tileSizeMeters": 1000,
+  "terrainHeightMeters": 260,
+  "seaLevelMeters": 18,
+  "heightmapResolution": 513,
+  "alphamapResolution": 256,
+  "islandCenterX": 0,
+  "islandCenterZ": 0,
+  "islandRadiusX": 1500,
+  "islandRadiusZ": 1250,
+  "coastNoiseScale": 0.0017,
+  "coastNoiseStrength": 0.16,
+  "zones": [
+    {
+      "id": "central-settlement",
+      "displayName": "중앙 정착지",
+      "type": "settlement",
+      "biome": "settlement",
+      "x": 0,
+      "z": -40,
+      "radiusX": 430,
+      "radiusZ": 370,
+      "danger": 0
+    },
+    {
+      "id": "north-forest",
+      "displayName": "북부 숲",
+      "type": "wild",
+      "biome": "forest",
+      "x": -100,
+      "z": 630,
+      "radiusX": 900,
+      "radiusZ": 650,
+      "danger": 2
+    },
+    {
+      "id": "northeast-grassland",
+      "displayName": "북동 초지",
+      "type": "wild",
+      "biome": "grassland",
+      "x": 620,
+      "z": 430,
+      "radiusX": 720,
+      "radiusZ": 520,
+      "danger": 1
+    },
+    {
+      "id": "west-cliffs",
+      "displayName": "서부 절벽",
+      "type": "wild",
+      "biome": "cliff",
+      "x": -1040,
+      "z": 170,
+      "radiusX": 430,
+      "radiusZ": 840,
+      "danger": 2
+    },
+    {
+      "id": "east-wetlands",
+      "displayName": "동부 습지",
+      "type": "wild",
+      "biome": "wetland",
+      "x": 1030,
+      "z": 20,
+      "radiusX": 430,
+      "radiusZ": 620,
+      "danger": 2
+    },
+    {
+      "id": "south-beach",
+      "displayName": "남부 해변",
+      "type": "coast",
+      "biome": "beach",
+      "x": 80,
+      "z": -1010,
+      "radiusX": 1030,
+      "radiusZ": 330,
+      "danger": 1
+    },
+    {
+      "id": "restricted-north",
+      "displayName": "북부 폐쇄구역",
+      "type": "danger",
+      "biome": "forest",
+      "x": -50,
+      "z": 1070,
+      "radiusX": 520,
+      "radiusZ": 290,
+      "danger": 4
+    },
+    {
+      "id": "nearshore",
+      "displayName": "닻섬 근해",
+      "type": "marine",
+      "biome": "nearshore",
+      "x": 0,
+      "z": -1350,
+      "radiusX": 1650,
+      "radiusZ": 600,
+      "danger": 2
+    }
+  ],
+  "flatZones": [
+    {
+      "id": "settlement-flat",
+      "x": 0,
+      "z": -40,
+      "radius": 410,
+      "targetHeightMeters": 38
+    },
+    {
+      "id": "harbor-flat",
+      "x": 220,
+      "z": -720,
+      "radius": 180,
+      "targetHeightMeters": 24
+    },
+    {
+      "id": "research-flat",
+      "x": -330,
+      "z": -180,
+      "radius": 125,
+      "targetHeightMeters": 34
+    },
+    {
+      "id": "wetland-station-flat",
+      "x": 890,
+      "z": 0,
+      "radius": 80,
+      "targetHeightMeters": 26
+    }
+  ],
+  "pois": [
+    {
+      "id": "anchor-plaza",
+      "displayName": "앵커 광장",
+      "type": "anchor",
+      "x": 0,
+      "z": 0,
+      "yaw": 0,
+      "importance": 5
+    },
+    {
+      "id": "anchor-administration",
+      "displayName": "앵커 관리국 지부",
+      "type": "administration",
+      "x": 80,
+      "z": 80,
+      "yaw": 180,
+      "importance": 5
+    },
+    {
+      "id": "frontier-market",
+      "displayName": "개척자 시장",
+      "type": "market",
+      "x": -130,
+      "z": -80,
+      "yaw": 30,
+      "importance": 4
+    },
+    {
+      "id": "bio-research",
+      "displayName": "세계생태연구원 닻섬 분소",
+      "type": "research",
+      "x": -330,
+      "z": -180,
+      "yaw": 80,
+      "importance": 5
+    },
+    {
+      "id": "silent-harbor",
+      "displayName": "침묵의 항구",
+      "type": "harbor",
+      "x": 220,
+      "z": -720,
+      "yaw": 0,
+      "importance": 5
+    },
+    {
+      "id": "harbor-warehouse",
+      "displayName": "항구 창고지대",
+      "type": "warehouse",
+      "x": 390,
+      "z": -620,
+      "yaw": 10,
+      "importance": 3
+    },
+    {
+      "id": "south-lighthouse",
+      "displayName": "남부 등대",
+      "type": "landmark",
+      "x": -520,
+      "z": -900,
+      "yaw": 0,
+      "importance": 3
+    },
+    {
+      "id": "west-farm",
+      "displayName": "서부 개척 농장",
+      "type": "farm",
+      "x": -520,
+      "z": 240,
+      "yaw": 20,
+      "importance": 3
+    },
+    {
+      "id": "north-ranger",
+      "displayName": "북부 순찰초소",
+      "type": "outpost",
+      "x": 230,
+      "z": 560,
+      "yaw": 0,
+      "importance": 3
+    },
+    {
+      "id": "restricted-gate",
+      "displayName": "폐쇄구역 통제문",
+      "type": "checkpoint",
+      "x": 0,
+      "z": 760,
+      "yaw": 0,
+      "importance": 4
+    },
+    {
+      "id": "cliff-lookout",
+      "displayName": "서부 절벽 전망대",
+      "type": "landmark",
+      "x": -1100,
+      "z": 250,
+      "yaw": 90,
+      "importance": 2
+    },
+    {
+      "id": "wetland-station",
+      "displayName": "습지 관측소",
+      "type": "research",
+      "x": 900,
+      "z": 0,
+      "yaw": 270,
+      "importance": 3
+    },
+    {
+      "id": "south-wreck",
+      "displayName": "남부 난파지",
+      "type": "wreck",
+      "x": 530,
+      "z": -1030,
+      "yaw": 20,
+      "importance": 3
+    },
+    {
+      "id": "beach-camp",
+      "displayName": "해안 탐사 야영지",
+      "type": "camp",
+      "x": -360,
+      "z": -980,
+      "yaw": 0,
+      "importance": 2
+    },
+    {
+      "id": "fossil-cut",
+      "displayName": "서부 화석 절개지",
+      "type": "fossil",
+      "x": -850,
+      "z": 500,
+      "yaw": 120,
+      "importance": 2
+    },
+    {
+      "id": "north-observation",
+      "displayName": "북부 생태 관측대",
+      "type": "research",
+      "x": -40,
+      "z": 900,
+      "yaw": 180,
+      "importance": 3
+    }
+  ],
+  "roads": [
+    {
+      "id": "road-main-harbor",
+      "from": "anchor-plaza",
+      "to": "silent-harbor",
+      "width": 9
+    },
+    {
+      "id": "road-market",
+      "from": "anchor-plaza",
+      "to": "frontier-market",
+      "width": 7
+    },
+    {
+      "id": "road-research",
+      "from": "anchor-plaza",
+      "to": "bio-research",
+      "width": 7
+    },
+    {
+      "id": "road-farm",
+      "from": "anchor-plaza",
+      "to": "west-farm",
+      "width": 6
+    },
+    {
+      "id": "road-north",
+      "from": "anchor-plaza",
+      "to": "north-ranger",
+      "width": 7
+    },
+    {
+      "id": "road-gate",
+      "from": "north-ranger",
+      "to": "restricted-gate",
+      "width": 5
+    },
+    {
+      "id": "road-wetland",
+      "from": "anchor-plaza",
+      "to": "wetland-station",
+      "width": 5
+    }
+  ]
+}
